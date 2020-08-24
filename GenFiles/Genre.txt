@@ -1,0 +1,9 @@
+Action Adventure
+Scifi
+Fantasy
+Mystery
+Romance
+Literary
+Historical Fiction
+Thriller
+Comedy

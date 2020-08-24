@@ -1,0 +1,7 @@
+Weather
+Flora
+Fauna
+Races
+Climate
+Terrain
+Visuals
