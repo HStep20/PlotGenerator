@@ -19,7 +19,7 @@ class App:
 
         self.GLabel_544=tk.Label(root)
         self.GLabel_544["bg"] = "#80ed99"
-        ft = tkFont.Font(family='Times',size=30)
+        ft = tkFont.Font(family='Times',size=26)
         self.GLabel_544["font"] = ft
         self.GLabel_544["fg"] = "#22577a"
         self.GLabel_544["justify"] = "center"
