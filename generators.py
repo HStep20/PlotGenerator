@@ -32,7 +32,7 @@ def generate():
 
 def designateWorldbuilding():
     WBString = ""
-    count = random.randint(1, 4)
+    count = random.randint(1, 3)
     for i in range(count):
         culturalOrPhysical = random.randint(0, 1)
         if culturalOrPhysical == 0:
