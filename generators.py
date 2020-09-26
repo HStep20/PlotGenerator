@@ -52,8 +52,8 @@ def returnOutput():
         article = "a "
 
     return (
-            "Brainstorm " + article + output[0] + " book "
-            "using the " + output[1] + " plot "
-            "where " + designateWorldbuilding() + " play a role in the story, "
-            "and it touches on the theme of " + output[2]
+            "Brainstorm " + article + output[0] + " book where "
+            + designateWorldbuilding() + " play a role in the story, "
+            "and it touches on the theme of " + output[2] +
+            ". Hard mode: Use a " + output[1] + " plot structure."
     )
