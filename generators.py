@@ -43,6 +43,10 @@ def designateWorldbuilding():
             WBString += ", and "
         elif not (i == count - 1):
             WBString += ", "
+    if count == 1:
+        WBString += " plays"
+    else:
+        WBString += " play"
     return WBString
 
 def returnOutput():
@@ -53,7 +57,7 @@ def returnOutput():
 
     return (
             "Brainstorm " + article + output[0] + " book where "
-            + designateWorldbuilding() + " play a role in the story, "
+            + designateWorldbuilding() + " a role in the story, "
             "and it touches on the theme of " + output[2] +
             ". Hard mode: Use a " + output[1] + " plot structure."
     )
