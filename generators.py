@@ -7,7 +7,6 @@ WBPhysical = []
 Theme = []
 datasets = [Genre, Plot, Theme]
 output = []
-WBAspects = ""
 
 
 def setup():
@@ -28,7 +27,6 @@ def generate():
     output.clear()
     for item in datasets:
         output.append(item[random.randint(0, len(item) - 1)])
-    WBAspects = designateWorldbuilding()
     return returnOutput()
 
 
@@ -45,7 +43,6 @@ def designateWorldbuilding():
             WBString += ", and "
         elif not (i == count - 1):
             WBString += ", "
-    print(WBString)
     return WBString
 
 def returnOutput():
@@ -57,6 +54,6 @@ def returnOutput():
     return (
             "Brainstorm " + article + output[0] + " book "
             "using the " + output[1] + " plot "
-            "where " + WBAspects + " play a role in the story, "
+            "where " + designateWorldbuilding() + " play a role in the story, "
             "and it touches on the theme of " + output[2]
     )
